@@ -1,0 +1,156 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background:
+		linear-gradient(
+		      rgba(0, 0, 0, 0.8),
+		      rgba(0, 0, 0, 0.8)
+			),url(cake.jpg);
+	background-size: cover;
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.container h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+	margin: 0px;
+	letter-spacing: 10px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+.first-text,
+.second-text,
+.third-text,
+.fourth-text,
+.fifth-text,
+.sixth-text,
+.seventh-text,
+.eight-text,
+.ninth-text,
+.tenth-text,
+.eleventh-text,
+.twelfth-text,
+.thirteenth-text,
+.fourteenth-text,
+.fifteenth-text
+ {
+	position: absolute;
+	font-size: 30px;
+	font-weight: 500;
+	margin: 20px;
+	left: 10%;
+	right: 10%;
+	opacity: 0;
+	color: #fff;
+	animation-name: fadeInOut;
+	animation-duration: 7s;
+}
+
+.first-text {
+    animation-delay: 1s;
+}
+
+.second-text {
+    animation-delay: 8s;
+}
+
+.third-text {
+    animation-delay: 15s;
+}
+
+.fourth-text {
+    animation-delay: 22s;
+}
+
+.fifth-text {
+    animation-delay: 29s;
+}
+
+.sixth-text {
+    animation-delay: 36s;
+}
+
+.seventh-text {
+    animation-delay: 43s;
+}
+
+.eight-text {
+    animation-delay: 50s;
+}
+
+.ninth-text {
+    animation-delay: 57s;
+}
+
+.tenth-text {
+    animation-delay: 64s;
+}
+
+.eleventh-text {
+    animation-delay: 71s;
+}
+
+.twelfth-text {
+    animation-delay: 78s;
+}
+
+.thirteenth-text {
+    animation-delay: 85s;
+}
+
+.fourteenth-text {
+    animation-delay: 92s;
+}
+
+.fifteenth-text {
+    animation-delay: 99s;
+    animation-iteration-count: infinite;
+}
+
+.count {
+	margin: 40px 0;
+}
+
+.countd {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border: 3px solid;
+	margin: 50px 30px 0px 30px;
+	font-size: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.container span {
+	display: block;
+	font-size: 36px;
+	margin-top: 28px;
+}
